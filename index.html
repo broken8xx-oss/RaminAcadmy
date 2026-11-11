@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>آکادمی کامپیوتر</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #050914;
+  color: white;
+  font-family: Tahoma, Arial;
+}
+header {
+  background: #080f20;
+  padding: 22px;
+  text-align: center;
+  border-bottom: 2px solid #008cff;
+}
+header h1 {
+  color: #00aaff;
+  text-shadow: 0 0 15px #008cff;
+}
+nav {
+  text-align: center;
+  padding: 18px;
+  background: #0b1428;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 12px;
+}
+nav a:hover {
+  color: #00aaff;
+}
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+}
+.hero h2 {
+  color: #00aaff;
+  font-size: 32px;
+}
+.hero p {
+  color: #b8c7dc;
+  line-height: 2;
+}
+.btn {
+  display: inline-block;
+  background: #008cff;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.courses {
+  padding: 35px 20px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: #101c35;
+  border: 1px solid #008cff;
+  border-radius: 12px;
+  padding: 25px;
+  width: 250px;
+}
+.card h3 {
+  color: #00aaff;
+}
+footer {
+  background: #080f20;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+  color: #9db4d1;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>آکادمی کامپیوتر</h1>
+<p>مسیر تو برای ورود به دنیای تکنولوژی</p>
+</header>
+
+<nav>
+<a href="#">خانه</a>
+<a href="#courses">دوره‌ها</a>
+<a href="#dashboard">داشبورد دانش‌آموزان</a>
+<a href="#admin">مدیریت آکادمی</a>
+<a href="#computer">آموزش کامپیوتر</a>
+<a href="#programming">برنامه‌نویسی</a>
+<a href="#cyber">امنیت سایبری</a>
+<a href="#about">درباره ما</a>
+<a href="#login">ورود / ثبت‌نام</a>
+</nav>
+
+<section class="hero">
+<h2>به دنیای برنامه‌نویسی خوش آمدی!</h2>
+<p>از صفر شروع کن و مهارت‌های کامپیوتری خودت را حرفه‌ای کن.</p>
+<a class="btn" href="#courses">مشاهده دوره‌ها</a>
+</section>
+
+<section class="courses" id="courses">
+<h2>دوره‌های آموزشی</h2>
+<div class="cards">
+<div class="card">
+<h3>آموزش کامپیوتر</h3>
+<p>یادگیری مهارت‌های پایه کامپیوتر</p>
+</div>
+<div class="card">
+<h3>برنامه‌نویسی</h3>
+<p>شروع یادگیری طراحی سایت و کدنویسی</p>
+</div>
+<div class="card">
+<h3>امنیت سایبری</h3>
+<p>آشنایی با امنیت و هک اخلاقی</p>
+</div>
+</div>
+</section>
+<section id="login" style="padding:50px 20px;text-align:center;">
+<h2 style="color:#00aaff;">ورود به آکادمی</h2>
+
+<div style="background:#101c35;
+padding:30px;
+max-width:350px;
+margin:auto;
+border:1px solid #008cff;
+border-radius:15px;">
+
+<input type="text" placeholder="نام کاربری"
+style="width:100%;padding:14px;margin:10px 0;border-radius:8px;">
+
+<input type="password" placeholder="رمز عبور"
+style="width:100%;padding:14px;margin:10px 0;border-radius:8px;">
+
+<button onclick="alert('این فرم فعلاً نمایشی است!')"
+style="background:#008cff;color:white;
+padding:13px 35px;border:0;border-radius:8px;
+cursor:pointer;">
+ورود
+</button>
+
+<p style="color:#b8c7dc;">به آکادمی کامپیوتر خوش آمدی!</p>
+</div>
+</section>                  
+<section id="login" style="padding:50px 20px;text-align:center;">
+<h2 style="color:#00aaff;">ثبت نام در اکادمی</h2>
+
+<div style="background:#101c35;
+padding:30px;
+max-width:350px;
+margin:auto;
+border:1px solid #008cff;
+border-radius:15px;">
+
+<input type="text" placeholder="نام کاربری"
+style="width:100%;padding:14px;margin:10px 0;border-radius:8px;">
+
+<input type="password" placeholder="رمز عبور"
+style="width:100%;padding:14px;margin:10px 0;border-radius:8px;">
+
+<button onclick="alert('این فرم فعلاً نمایشی است!')"
+style="background:#008cff;color:white;
+padding:13px 35px;border:0;border-radius:8px;
+cursor:pointer;">
+ورود
+</button>
+
+<p style="color:#b8c7dc;">به آکادمی کامپیوتر خوش آمدی!</p>
+</div>
+</section>
+<p style="color:#b8c7dc;">به آکادمی کامپیوتر خوش آمدی!</p>
+</div>
+</section>
+<!-- آموزش کامپیوتر -->
+<section id="computer" class="courses">
+<h2>آموزش کامپیوتر</h2>
+<div class="cards">
+
+<div class="card">
+<h3>آشنایی با ویندوز</h3>
+<p>یادگیری محیط ویندوز، فایل‌ها و پوشه‌ها</p>
+</div>
+<!-- آموزش کامپیوتر -->
+<section id="computer" class="courses">
+<h2>آموزش کامپیوتر</h2>
+<div class="cards">
+
+<div class="card">
+<h3>آشنایی با ویندوز</h3>
+<p>یادگیری محیط ویندوز، فایل‌ها و پوشه‌ها</p>
+</div>
+
+<div class="card">
+<h3>سخت‌افزار کامپیوتر</h3>
+<p>آشنایی با پردازنده، رم، هارد و مادربرد</p>
+</div>
+
+<div class="card">
+<h3>نرم‌افزارهای کاربردی</h3>
+<p>آموزش Word، Excel و PowerPoint</p>
+</div>
+
+</div>
+</section>
+
+<!-- آموزش برنامه نویسی -->
+<section id="programming" class="courses">
+<h2>آموزش برنامه‌نویسی</h2>
+<div class="cards">
+
+<div class="card">
+<h3>HTML</h3>
+<p>ساختار صفحات وب را یاد بگیر.</p>
+</div>
+<a class="btn" href="#html-course">شروع آموزش</a>
+<a class="btn" href="#courses">بازگشت به دوره‌ها</a>
+<div class="card">
+<h3>CSS</h3>
+<p>طراحی ظاهر زیبا و حرفه‌ای سایت</p>
+</div>
+
+<div class="card">
+<h3>JavaScript</h3>
+<p>ساخت امکانات تعاملی برای سایت</p>
+</div>
+
+<div class="card">
+<h3>Python</h3>
+<p>شروع برنامه‌نویسی با پایتون</p>
+</div>
+<a class="btn" href="#python-course">شروع آموزش</a>
+</div>
+</section>
+
+<!-- آموزش امنیت سایبری -->
+<section id="cyber" class="courses">
+<h2>آموزش امنیت سایبری</h2>
+<div class="cards">
+
+<div class="card">
+<h3>امنیت حساب‌ها</h3>
+<p>ساخت رمز عبور قوی و فعال‌سازی تأیید دومرحله‌ای</p>
+</div>
+
+<div class="card">
+<h3>امنیت شبکه</h3>
+<p>آشنایی با شبکه و روش‌های محافظت از آن</p>
+</div>
+
+<div class="card">
+<h3>هک اخلاقی</h3>
+<p>یادگیری اصول امنیت در محیط آزمایشگاهی مجاز</p>
+</div>
+<a class="btn" href="#cyber-course">شروع آموزش</a>
+</div>
+</section>
+<div class="card">
+<h3>سخت‌افزار کامپیوتر</h3>
+<p>آشنایی با پردازنده، رم، هارد و مادربرد</p>
+</div>
+
+<div class="card">
+<h3>نرم‌افزارهای کاربردی</h3>
+<p>آموزش Word، Excel و PowerPoint</p>
+</div>
+
+</div>
+</section>
+
+<!-- آموزش برنامه نویسی -->
+<section id="programming" class="courses">
+<h2>آموزش برنامه‌نویسی</h2>
+<div class="cards">
+
+<div class="card">
+<h3>HTML</h3>
+<p>ساختار صفحات وب را یاد بگیر.</p>
+</div>
+
+<div class="card">
+<h3>CSS</h3>
+<p>طراحی ظاهر زیبا و حرفه‌ای سایت</p>
+</div>
+
+<div class="card">
+<h3>JavaScript</h3>
+<p>ساخت امکانات تعاملی برای سایت</p>
+</div>
+
+<div class="card">
+<h3>Python</h3>
+<p>شروع برنامه‌نویسی با پایتون</p>
+</div>
+
+</div>
+</section>
+
+<!-- آموزش امنیت سایبری -->
+<section id="cyber" class="courses">
+<h2>آموزش امنیت سایبری</h2>
+<div class="cards">
+
+<div class="card">
+<h3>امنیت حساب‌ها</h3>
+<p>ساخت رمز عبور قوی و فعال‌سازی تأیید دومرحله‌ای</p>
+</div>
+
+<div class="card">
+<h3>امنیت شبکه</h3>
+<p>آشنایی با شبکه و روش‌های محافظت از آن</p>
+</div>
+
+<div class="card">
+<h3>هک اخلاقی</h3>
+<p>یادگیری اصول امنیت در محیط آزمایشگاهی مجاز</p>
+</div>
+
+</div>
+</section>
+<section id="windows" class="courses">
+<h2>آموزش ویندوز از صفر</h2>
+
+<div class="card" style="width:90%;max-width:700px;margin:auto;">
+<h3>درس اول: آشنایی با ویندوز</h3>
+
+<p>
+ویندوز یک سیستم‌عامل است که به ما کمک می‌کند
+با کامپیوتر کار کنیم.
+</p>
+
+<h3>مفاهیم اولیه</h3>
+
+<p>۱. Desktop: صفحه اصلی ویندوز</p>
+<p>۲. Folder: پوشه برای نگهداری فایل‌ها</p>
+<p>۳. File: فایل‌های ذخیره‌شده در کامپیوتر</p>
+<p>۴. Recycle Bin: محل نگهداری موقت فایل‌های حذف‌شده</p>
+
+<h3>تمرین</h3>
+<p>یک پوشه جدید روی دسکتاپ بساز و نام آن را Academy بگذار.</p>
+</div>
+</section>
+<section id="html-course" class="courses">
+<div class="card" style="width:90%;max-width:700px;margin:auto;">
+<h2>آموزش HTML</h2>
+<p>HTML زبان ساختار صفحات وب است.</p>
+<h3>اولین کد HTML</h3>
+<pre dir="ltr"><code>&lt;h1&gt;Hello World&lt;/h1&gt;</code></pre>
+<p>این کد یک عنوان در صفحه ایجاد می‌کند.</p>
+</div>
+</section>
+
+<section id="python-course" class="courses">
+<div class="card" style="width:90%;max-width:700px;margin:auto;">
+<h2>آموزش Python</h2>
+<p>پایتون یک زبان برنامه‌نویسی ساده و قدرتمند است.</p>
+<h3>اولین کد Python</h3>
+<pre dir="ltr"><code>print("Hello World")</code></pre>
+<p>این دستور عبارت Hello World را نمایش
+<!-- آموزش کامپیوتر -->
+<section id="computer" class="courses">
+<h2>آموزش کامپیوتر</h2>
+<div class="cards">
+
+<div class="card">
+<h3>آشنایی با ویندوز</h3>
+<p>یادگیری محیط ویندوز، فایل‌ها و پوشه‌ها</p>
+</div>
+<!-- آموزش کامپیوتر -->
+<section id="computer" class="courses">
+<h2>آموزش کامپیوتر</h2>
+<div class="cards">
+
+<div class="card">
+<h3>آشنایی با ویندوز</h3>
+<p>یادگیری محیط ویندوز، فایل‌ها و پوشه‌ها</p>
+</div>
+
+<div class="card">
+<h3>سخت‌افزار کامپیوتر</h3>
+<p>آشنایی با پردازنده، رم، هارد و مادربرد</p>
+</div>
+
+<div class="card">
+<h3>نرم‌افزارهای کاربردی</h3>
+<p>آموزش Word، Excel و PowerPoint</p>
+</div>
+
+</div>
+</section>
+
+<!-- آموزش برنامه نویسی -->
+<section id="programming" class="courses">
+<h2>آموزش برنامه‌نویسی</h2>
+<div class="cards">
+
+<div class="card">
+<h3>HTML</h3>
+<p>ساختار صفحات وب را یاد بگیر.</p>
+</div>
+<a class="btn" href="#html-course">شروع آموزش</a>
+<a class="btn" href="#courses">بازگشت به دوره‌ها</a>
+<div class="card">
+<h3>CSS</h3>
+<p>طراحی ظاهر زیبا و حرفه‌ای سایت</p>
+</div>
+
+<div class="card">
+<h3>JavaScript</h3>
+<p>ساخت امکانات تعاملی برای سایت</p>
+</div>
+
+<div class="card">
+<h3>Python</h3>
+<p>شروع برنامه‌نویسی با پایتون</p>
+</div>
+<a class="btn" href="#python-course">شروع آموزش</a>
+</div>
+</section>
+
+<!-- آموزش امنیت سایبری -->
+<section id="cyber" class="courses">
+<h2>آموزش امنیت سایبری</h2>
+<div class="cards">
+
+<div class="card">
+<h3>امنیت حساب‌ها</h3>
+<p>ساخت رمز عبور قوی و فعال‌سازی تأیید دومرحله‌ای</p>
+</div>
+
+<div class="card">
+<h3>امنیت شبکه</h3>
+<p>آشنایی با شبکه و روش‌های محافظت از آن</p>
+</div>
+
+<div class="card">
+<h3>هک اخلاقی</h3>
+<p>یادگیری اصول امنیت در محیط آزمایشگاهی مجاز</p>
+</div>
+<a class="btn" href="#cyber-course">شروع آموزش</a>
+</div>
+</section>
+<div class="card">
+<h3>سخت‌افزار کامپیوتر</h3>
+<p>آشنایی با پردازنده، رم، هارد و مادربرد</p>
+</div>
+
+<div class="card">
+<h3>نرم‌افزارهای کاربردی</h3>
+<p>آموزش Word، Excel و PowerPoint</p>
+</div>
+
+</div>
+</section>
+
+<!-- آموزش برنامه نویسی -->
+<section id="programming" class="courses">
+<h2>آموزش برنامه‌نویسی</h2>
+<div class="cards">
+
+<div class="card">
+<h3>HTML</h3>
+<p>ساختار صفحات وب را یاد بگیر.</p>
+</div>
+
+<div class="card">
+<h3>CSS</h3>
+<p>طراحی ظاهر زیبا و حرفه‌ای سایت</p>
+</div>
+
+<div class="card">
+<h3>JavaScript</h3>
+<p>ساخت امکانات تعاملی برای سایت</p>
+</div>
+
+<div class="card">
+<h3>Python</h3>
+<p>شروع برنامه‌نویسی با پایتون</p>
+</div>
+
+</div>
+</section>
+
+<!-- آموزش امنیت سایبری -->
+<section id="cyber" class="courses">
+<h2>آموزش امنیت سایبری</h2>
+<div class="cards">
+
+<div class="card">
+<h3>امنیت حساب‌ها</h3>
+<p>ساخت رمز عبور قوی و فعال‌سازی تأیید دومرحله‌ای</p>
+</div>
+
+<div class="card">
+<h3>امنیت شبکه</h3>
+<p>آشنایی با شبکه و روش‌های محافظت از آن</p>
+</div>
+
+<div class="card">
+<h3>هک اخلاقی</h3>
+<p>یادگیری اصول امنیت در محیط آزمایشگاهی مجاز</p>
+</div>
+
+</div>
+</section>
+<section id="windows" class="courses">
+<h2>آموزش ویندوز از صفر</h2>
+
+<div class="card" style="width:90%;max-width:700px;margin:auto;">
+<h3>درس اول: آشنایی با ویندوز</h3>
+
+<p>
+ویندوز یک سیستم‌عامل است که به ما کمک می‌کند
+با کامپیوتر کار کنیم.
+</p>
+
+<h3>مفاهیم اولیه</h3>
+
+<p>۱. Desktop: صفحه اصلی ویندوز</p>
+<p>۲. Folder: پوشه برای نگهداری فایل‌ها</p>
+<p>۳. File: فایل‌های ذخیره‌شده در کامپیوتر</p>
+<p>۴. Recycle Bin: محل نگهداری موقت فایل‌های حذف‌شده</p>
+
+<h3>تمرین</h3>
+<p>یک پوشه جدید روی دسکتاپ بساز و نام آن را Academy بگذار.</p>
+</div>
+</section>
+<section id="html-course" class="courses">
+<div class="card" style="width:90%;max-width:700px;margin:auto;">
+<h2>آموزش HTML</h2>
+<p>HTML زبان ساختار صفحات وب است.</p>
+<h3>اولین کد HTML</h3>
+<pre dir="ltr"><code>&lt;h1&gt;Hello World&lt;/h1&gt;</code></pre>
+<p>این کد یک عنوان در صفحه ایجاد می‌کند.</p>
+</div>
+</section>
+
+<section id="python-course" class="courses">
+<div class="card" style="width:90%;max-width:700px;margin:auto;">
+<h2>آموزش Python</h2>
+<p>پایتون یک زبان برنامه‌نویسی ساده و قدرتمند است.</p>
+<h3>اولین کد Python</h3>
+<pre dir="ltr"><code>print("Hello World")</code></pre>
+<p>این دستور عبارت Hello World را نمایش می‌دهد.</p>
+</div>
+</section>
+
+<section id="cyber-course" class="courses">
+<div class="card" style="width:90%;max-width:700px;margin:auto;">
+<h2>آموزش امنیت سایبری</h2>
+<p>در این دوره با اصول محافظت از اطلاعات آشنا می‌شوی.</p>
+<h3>درس اول: رمز عبور امن</h3>
+<p>از رمزهای طولانی و متفاوت استفاده کن.</p>
+<p>تأیید دومرحله‌ای را فعال کن.</p>
+<p>رمز عبورت را در اختیار دیگران قرار نده.</p>
+</div>
+</section>
+<section id="more-lessons" class="courses">
+<h2>درس‌های بیشتر آکادمی</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>HTML - درس دوم</h3>
+<p>ساخت لینک در صفحات وب</p>
+<pre dir="ltr"><code>&lt;a href="https://example.com"&gt;Click&lt;/a&gt;</code></pre>
+<a class="btn" href="#courses">بازگشت به دوره‌ها</a>
+</div>
+
+<div class="card">
+<h3>Python - درس دوم</h3>
+<p>آشنایی با متغیرها</p>
+<pre dir="ltr"><code>name = "Academy"
+print(name)</code></pre>
+<a class="btn" href="#courses">بازگشت به دوره‌ها</a>
+</div>
+
+<div class="card">
+<h3>امنیت سایبری - درس دوم</h3>
+<p>آشنایی با فیشینگ و تشخیص پیام‌های مشکوک</p>
+<p>روی لینک‌های ناشناس کلیک نکن.</p>
+<a class="btn" href="#courses">بازگشت به دوره‌ها</a>
+</div>
+
+</div>
+</section>
+<section id="quiz" class="courses">
+<h2>آزمون آنلاین آکادمی</h2>
+<p>دانش خودت را امتحان کن!</p>
+
+<div class="card" style="width:90%;max-width:600px;margin:auto;text-align:right;">
+
+<form id="academyQuiz">
+
+<h3>سؤال ۱: HTML برای چه کاری استفاده می‌شود؟</h3>
+<label><input type="radio" name="q1" value="a"> ویرایش عکس</label><br>
+<label><input type="radio" name="q1" value="b"> ساختار صفحات وب</label><br>
+<label><input type="radio" name="q1" value="c"> پخش موسیقی</label>
+
+<hr>
+
+<h3>سؤال ۲: کدام زبان برای برنامه‌نویسی استفاده می‌شود؟</h3>
+<label><input type="radio" name="q2" value="a"> Python</label><br>
+<label><input type="radio" name="q2" value="b"> HDMI</label><br>
+<label><input type="radio" name="q2" value="c"> USB</label>
+
+<hr>
+
+<h3>سؤال ۳: کدام روش امنیت حساب را بیشتر می‌کند؟</h3>
+<label><input type="radio" name="q3" value="a"> رمز ساده</label><br>
+<label><input type="radio" name="q3" value="b"> دادن رمز به دوستان</label><br>
+<label><input type="radio" name="q3" value="c"> تأیید دومرحله‌ای</label>
+
+<br><br>
+
+<button type="submit" class="btn">ثبت پاسخ‌ها</button>
+
+</form>
+
+<h3 id="quizResult" style="color:#00aaff;"></h3>
+
+</div>
+</section>
+
+<script>
+document.getElementById("academyQuiz").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const answers = {
+    q1: "b",
+    q2: "a",
+    q3: "c"
+  };
+
+  let score = 0;
+
+  for (let q in answers) {
+    const selected = document.querySelector(
+      'input[name="' + q + '"]:checked'
+    );
+
+    if (selected && selected.value === answers[q]) {
+      score++;
+    }
+  }
+
+  document.getElementById("quizResult").textContent =
+    "نتیجه آزمون: " + score + " از ۳ امتیاز";
+});
+</script>
+<section id="dashboard" class="courses">
+<h2>داشبورد دانش‌آموزان</h2>
+<p>به مرکز یادگیری آکادمی خوش آمدید.</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>💻 آموزش کامپیوتر</h3>
+<p>یادگیری مهارت‌های کامپیوتری</p>
+<a class="btn" href="#computer">ورود به بخش</a>
+</div>
+
+<div class="card">
+<h3>👨‍💻 برنامه‌نویسی</h3>
+<p>یادگیری HTML، CSS و Python</p>
+<a class="btn" href="#programming">ورود به بخش</a>
+</div>
+
+<div class="card">
+<h3>🛡️ امنیت سایبری</h3>
+<p>یادگیری اصول امنیت دیجیتال</p>
+<a class="btn" href="#cyber">ورود به بخش</a>
+</div>
+
+<div class="card">
+<h3>📝 آزمون آنلاین</h3>
+<p>سنجش میزان یادگیری</p>
+<a class="btn" href="#quiz">شروع آزمون</a>
+</div>
+
+</div>
+</section>
+<section id="admin" class="courses">
+<h2>پنل مدیریت آکادمی</h2>
+<p>مدیریت دوره‌ها و محتوای آموزشی</p>
+
+<div class="card" style="width:90%;max-width:600px;margin:auto;">
+
+<h3>افزودن دوره جدید</h3>
+
+<input id="courseName" type="text"
+placeholder="نام دوره"
+style="width:100%;padding:14px;margin:10px 0;">
+
+<textarea id="courseDescription"
+placeholder="توضیحات دوره"
+style="width:100%;padding:14px;margin:10px 0;"></textarea>
+
+<button class="btn" onclick="addCourse()">
+افزودن دوره
+</button>
+
+<h3>فهرست دوره‌ها</h3>
+<div id="courseList"></div>
+
+</div>
+</section>
+
+<script/>
+let courses = [];
+
+try {
+  courses = JSON.parse(
+    localStorage.getItem("academyCourses") || "[]"
+  );
+
+  if (!Array.isArray(courses)) {
+    courses = [];
+  }
+} catch (error) {
+  courses = [];
+}
+
+function showCourses() {
+  const list = document.getElementById("courseList");
+
+  if (!list) return;
+
+  list.replaceChildren();
+
+  courses.forEach(function(course, index) {
+    const item = document.createElement("div");
+    item.className = "card";
+
+    const title = document.createElement("h3");
+    title.textContent = course.name;
+
+    const description = document.createElement("p");
+    description.textContent = course.description;
+
+    const editButton = document.createElement("button");
+    editButton.type = "button";
+    editButton.textContent = "ویرایش دوره";
+    editButton.onclick = function() {
+      editCourse(index);
+    };
+
+    const deleteButton = document.createElement("button");
+    deleteButton.type = "button";
+    deleteButton.textContent = "حذف دوره";
+    deleteButton.onclick = function() {
+      deleteCourse(index);
+    };
+
+    item.appendChild(title);
+    item.appendChild(description);
+    item.appendChild(editButton);
+    item.appendChild(deleteButton);
+
+    list.appendChild(item);
+  });
+}
+
+function addCourse() {
+  const name = document.getElementById("courseName").value.trim();
+  const description = document.getElementById("courseDescription").value.trim();
+
+  if (!name || !description) {
+    alert("نام و توضیحات دوره را وارد کن.");
+    return;
+  }
+
+  courses.push({
+    name: name,
+    description: description
+  });
+
+  localStorage.setItem("academyCourses", JSON.stringify(courses));
+
+  document.getElementById("courseName").value = "";
+  document.getElementById("courseDescription").value = "";
+
+  showCourses();
+  alert("دوره ذخیره شد!");
+}
+
+function deleteCourse(index) {
+  if (!confirm("آیا مطمئنی می‌خواهی این دوره را حذف کنی؟")) {
+    return;
+  }
+
+  courses.splice(index, 1);
+  localStorage.setItem("academyCourses", JSON.stringify(courses));
+  showCourses();
+
+  alert("دوره حذف شد.");
+}
+
+function editCourse(index) {
+  const newName = prompt("نام جدید دوره:", courses[index].name);
+
+  if (newName === null || !newName.trim()) return;
+
+  const newDescription = prompt(
+    "توضیحات جدید دوره:",
+    courses[index].description
+  );
+
+  if (newDescription === null || !newDescription.trim()) return;
+
+  courses[index].name = newName.trim();
+  courses[index].description = newDescription.trim();
+
+  localStorage.setItem("academyCourses", JSON.stringify(courses));
+
+  showCourses();
+  alert("دوره ویرایش شد!");
+}
+
+showCourses();
+</script>
+
+    item.appendChild(title);
+    item.appendChild(description);
+    item.appendChild(deleteButton);
+    list.appendChild(item);
+  });
+}
+
+function deleteCourse(index) {
+  if (!confirm("آیا مطمئنی می‌خواهی این دوره را حذف کنی؟")) {
+    return;
+  }
+
+  courses.splice(index, 1);
+  localStorage.setItem("academyCourses", JSON.stringify(courses));
+  showCourses();
+
+  alert("دوره حذف شد.");
+}function showCourses() {
+  const list = document.getElementById("courseList");
+  list.replaceChildren();
+
+  courses.forEach(function(course, index) {
+    const item = document.createElement("div");
+    item.className = "card";
+
+    const title = document.createElement("h3");
+    title.textContent = course.name;
+
+    const description = document.createElement("p");
+    description.textContent = course.description;
+
+    const editButton = document.createElement("button");
+    editButton.textContent = "ویرایش دوره";
+    editButton.onclick = function() {
+      editCourse(index);
+    };
+
+    const deleteButton = document.createElement("button");
+    deleteButton.textContent = "حذف دوره";
+    deleteButton.onclick = function() {
+      deleteCourse(index);
+    };
+
+    item.appendChild(title);
+    item.appendChild(description);
+    item.appendChild(editButton);
+    item.appendChild(deleteButton);
+
+    list.appendChild(item);
+  });
+}
+
+    item.appendChild(title);
+    item.appendChild(description);
+    item.appendChild(deleteButton);
+    list.appendChild(item);
+  });
+}
+
+function deleteCourse(index) {
+  if (!confirm("آیا مطمئنی می‌خواهی این دوره را حذف کنی؟")) {
+    return;
+  }
+
+  courses.splice(index, 1);
+  localStorage.setItem("academyCourses", JSON.stringify(courses));
+function editCourse(index) {
+  const newName = prompt("نام جدید دوره را وارد کن:", courses[index].name);
+
+  if (newName === null || newName.trim() === "") {
+    return;
+  }
+
+  const newDescription = prompt(
+    "توضیحات جدید دوره را وارد کن:",
+    courses[index].description
+  );
+
+  if (newDescription === null || newDescription.trim() === "") {
+    return;
+  }
+
+  courses[index].name = newName.trim();
+  courses[index].description = newDescription.trim();
+
+  localStorage.setItem("academyCourses", JSON.stringify(courses));
+
+  showCourses();
+  alert("دوره با موفقیت ویرایش شد!");
+}
+  showCourses();
+
+  alert("دوره حذف شد.");
+}
+
+function addCourse() {
+  const name = document.getElementById("courseName").value.trim();
+  const description = document.getElementById("courseDescription").value.trim();
+
+  if (!name || !description) {
+    alert("نام و توضیحات دوره را وارد کن.");
+    return;
+  }
+
+  courses.push({
+    name: name,
+    description: description
+  });
+
+  localStorage.setItem("academyCourses", JSON.stringify(courses));
+
+  document.getElementById("courseName").value = "";
+  document.getElementById("courseDescription").value = "";
+
+  showCourses();
+  alert("دوره ذخیره شد!");
+}
+
+showCourses();
+</script>
+</script>
+<footer id="about">
+<p>آکادمی کامپیوتر | یادگیری برای آینده</p>
+</footer>
+
+</body>
+</html>
